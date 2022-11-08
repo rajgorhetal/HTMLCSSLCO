@@ -1,0 +1,10 @@
+body {
+  background-color: #1d1d1d;
+}
+
+header {
+  height: 80vh;
+  background-image: url('../images/cycleman.jpg');
+  background-size: cover;
+  background-position: center;
+}
