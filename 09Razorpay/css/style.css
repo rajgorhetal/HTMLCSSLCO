@@ -1,10 +1,27 @@
 body {
   background-color: #1d1d1d;
 }
+* {
+  margin: 0;
+  padding: 0;
+}
 
 header {
   height: 80vh;
-  background-image: url('../images/cycleman.jpg');
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(218, 11, 94, 0.785),
+      rgba(111, 0, 237, 0.577)
+    ),
+    url('../images/cycleman.jpg');
+  /* background: #04032d; */
   background-size: cover;
   background-position: center;
+  clip-path: polygon(25% 0%, 100% 0, 100% 59%, 79% 80%, 0 63%, 0 0);
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 70px;
+  padding-top: 30px;
 }
